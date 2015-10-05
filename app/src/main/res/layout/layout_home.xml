@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:stretchColumns="1" >
+
+    <TableRow>
+
+        <Button
+            android:id="@+id/btnOC"
+            style="@android:attr/buttonBarButtonStyle"
+            android:layout_width="180dp"
+            android:layout_height="wrap_content"
+            android:drawableTop="@drawable/ic_mod_icon"
+            android:text="@string/home_screen_oc" />
+
+        <Button
+            android:id="@+id/btnDC"
+            style="@android:attr/buttonBarButtonStyle"
+            android:layout_width="180dp"
+            android:layout_height="wrap_content"
+            android:drawableTop="@drawable/ic_mod_icon"
+            android:text="@string/home_screen_dc" />
+    </TableRow>
+
+    <TableRow>
+
+        <Button
+            android:id="@+id/btnFS"
+            style="@android:attr/buttonBarButtonStyle"
+            android:layout_width="180dp"
+            android:layout_height="wrap_content"
+            android:drawableTop="@drawable/ic_mod_icon"
+            android:text="@string/home_screen_fs" />
+
+        <Button
+            android:id="@+id/btnSettings"
+            style="@android:attr/buttonBarButtonStyle"
+            android:layout_width="180dp"
+            android:layout_height="wrap_content"
+            android:drawableTop="@drawable/ic_mod_icon"
+            android:text="@string/home_screen_ff_report" />
+    </TableRow>
+
+    <TableRow>
+
+        <Button
+            style="@android:attr/buttonBarButtonStyle"
+            android:layout_width="180dp"
+            android:layout_height="wrap_content"
+            android:drawableTop="@drawable/ic_mod_icon"
+            android:text="@string/home_screen_sync" />
+
+        <Button
+            style="@android:attr/buttonBarButtonStyle"
+            android:layout_width="180dp"
+            android:layout_height="wrap_content"
+            android:drawableTop="@drawable/ic_mod_icon"
+            android:text="@string/home_screen_settings" />
+    </TableRow>
+
+</TableLayout>
